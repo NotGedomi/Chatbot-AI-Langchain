@@ -1,5 +1,5 @@
 # Chatbot-AI-Advanced
-Asistente personalizado hecho con Node.js utilizando la API de OpenAI y su modelo GTP 3.5 Turbo.
+Asistente personalizado hecho con Node.js utilizando la API de OpenAI y su modelo GTP 3.5 Turbo. Esta potenciado para trabajar con archivos ".txt",".pdf",".docx",".json",".jsonl",".csv" y links de fuentes web, además incluye un modo lectura y reconocimiento de voz.
 
 ## Prerrequisitos:
 - [Node.js](https://nodejs.org/dist/v18.18.0/node-v18.18.0-x64.msi)
@@ -17,8 +17,11 @@ Para instalar las librerías necesarias para el chatbot, sigue estos pasos:
 ```
 npm install
 ```
-- 3- Una culminado el paso anterior, en la linea de comandos o terminal ejecuta el servidor:
+- 3- Una vez culminado el paso anterior, en la linea de comandos o terminal ejecuta el servidor:
 
 ```
 node server
 ```
+
+### Carga y visualización de archivos: 
+El chatbot cuenta con un panel en la ruta "/upload" el cual les permite modificar, eliminar y descargar los archivos o fuentes cargadas previamente, también puedes incluir enlaces.
