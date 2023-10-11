@@ -24,4 +24,4 @@ node server
 ```
 
 ### Carga y visualización de archivos: 
-El chatbot cuenta con un panel en la ruta "/upload" el cual les permite modificar, eliminar y descargar los archivos o fuentes cargadas previamente, también puedes incluir enlaces.
+El chatbot cuenta con un panel en el endpoint "/upload" el cual les permite modificar, eliminar y descargar los archivos o fuentes cargadas previamente, también puedes incluir enlaces.
